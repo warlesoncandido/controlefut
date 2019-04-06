@@ -1,0 +1,34 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form-group">
+            <form action="php/cadastro.php" method="POST" name="formcad">
+                <input type="text" name="nome" id="nome" placeholder="Digite seu Nome" class="form-control"><br>
+                <input type="text" name="usuario" id="usuario" placeholder="Digite seu usuario" class="form-control"><br>
+                <input type="text" name="email" id="email" placeholder="Digite seu e-mail" class="form-control"><br>
+                <input type="tel" name="telefone" id="telefone" placeholder="Digite seu telefone" class="form-control"><br>
+                <input type="password" name="senha" id="senha" placeholder="*******" class="form-control"><br>
+                <input type="submit" value="Cadastrar" id="cadastrar" onclick="validarCadastro()">&nbsp;<button id="limparcad">Limpar</button>
+
+
+
+
+            </form>
+
+        </div>
+
+
+
+
+    </div>
+    <script src="js/scripit.js"></script>
+</body>
+</html>
